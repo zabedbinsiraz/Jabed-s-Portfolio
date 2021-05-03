@@ -9,20 +9,20 @@ const Resume = () => {
 
 <div className="m-3 p-3 text-center">
            <h1 className="text-white">Professional Resume</h1>
-           <a class="btn btn-success " href="https://drive.google.com/uc?export=download&amp;id=1xAGXJkE02PKhn9-7OYwKrKUYoSL84Icm" role="button">download</a>
+           <a className="btn btn-success " href="https://drive.google.com/uc?export=download&amp;id=1xAGXJkE02PKhn9-7OYwKrKUYoSL84Icm" role="button">download</a>
            </div>
             <div id="container" className=" p-5">
 
        
 <header> 
-    <img class="profile-image" src={jabed} alt="jabed_hasan"/>
+    <img className="profile-image" src={jabed} alt="jabed_hasan"/>
 
-    <div class="header-bio">
+    <div className="header-bio">
         <h2>Mohammad Jabed Hossain</h2>
         <h4>Web App Developer</h4>
     </div>
 
-   <div class="header-contact">
+   <div className="header-contact">
         <p>&#128231; <a href="mailto:hossainjabed3@gmail.com" target="blank">hossainjabed3@gmail.com </a></p>
         <p>&#127760; <a href="https://www.github.com/zabedbinsiraz" target="blank">my github profile here</a></p>
         <p>&#128222; <a href="tel:+8801728985188" target="blank">+880 1728985188</a></p>
@@ -31,7 +31,7 @@ const Resume = () => {
 </header>
 
 
-<div class="clear-div"></div>
+<div className="clear-div"></div>
 <hr/>
 
 
@@ -40,11 +40,11 @@ const Resume = () => {
 
     
     <section id="personal-information">
-        <div class="content">
-            <div class="left-div">
+        <div className="content">
+            <div className="left-div">
                 <h3>    CAREER OBJECTIVE</h3>
             </div>
-            <div class="right-div">
+            <div className="right-div">
                 <p>
                 I am a dedicated front-end web developer. Always love to solve any type of web related problems and also love to learn any type of upcoming or old technology that’s related to web development. Now I am completely determined to reach myself as a pro web developer.
                 
@@ -56,14 +56,14 @@ const Resume = () => {
 
 
 
-    <div class="clear-div"></div>
-    <hr class="common-hr"/>
+    <div className="clear-div"></div>
+    <hr className="common-hr"/>
     <section id="personal-information">
-        <div class="content">
-            <div class="left-div">
+        <div className="content">
+            <div className="left-div">
                 <h3>DEVELOPING SKILLS</h3>
             </div>
-            <div class="right-div">
+            <div className="right-div">
                 <p>
                     <strong>Comfortable:</strong>  JavaScript, ES6, React, Redux, React Router, Next.js, HTML, CSS, SASS, Bootstrap <br/>
                     <strong>Familiar:</strong> TypeScript, GraphQL, Node.js, Express.js, MongoDB, Mongoose, Material-UI, React- Bootstrap, React Native, Wordpress, OOP, Python <br/>
@@ -78,17 +78,17 @@ const Resume = () => {
 
 
 
-    <div class="clear-div"></div>
-    <hr class="common-hr"/>
+    <div className="clear-div"></div>
+    <hr className="common-hr"/>
 
 
   
     <section id="Work-Experience">
-        <div class="content">
-            <div class="left-div">
+        <div className="content">
+            <div className="left-div">
                 <h3>MY PROJECTS</h3>
             </div>
-            <div class="right-div">
+            <div className="right-div">
                
 
 
@@ -105,7 +105,7 @@ const Resume = () => {
 
                 <a href="https://github.com/zabedbinsiraz/plumbing-hero-server" target="blank">server-site-code</a><br/>
                 <a href="https://github.com/zabedbinsiraz/plumbing-hero" target="blank">client-site-code</a><br/>
-                <hr class="common-hr"/>
+                <hr className="common-hr"/>
 
                 <h4> <a href="https://tshirt-shop1.web.app/" target="blank">T-Shirt Tray</a></h4> 
                 
@@ -120,7 +120,7 @@ const Resume = () => {
 
                 <a href="https://github.com/zabedbinsiraz/T-shirt-tray-server" target="blank">server-site-code</a><br/>
                 <a href="https://github.com/zabedbinsiraz/T-shirt-tray-client" target="blank">client-site-code</a><br/>
-                <hr class="common-hr"/>
+                <hr className="common-hr"/>
 
                 <h4> <a href="http://reactauth-login.web.app/" target="blank">Regular Driver</a></h4> 
                 
@@ -135,24 +135,24 @@ const Resume = () => {
 
                 <a href="https://github.com/zabedbinsiraz/Regular-Driver" target="blank">source-code</a><br/>
                
-                <hr class="common-hr"/>
+                <hr className="common-hr"/>
 
             </div>
         </div>
     </section>
  
 
-    <div class="clear-div"></div>
-    <hr class="common-hr"/>
+    <div className="clear-div"></div>
+    <hr className="common-hr"/>
 
 
     
     <section id="communication-skills">
-        <div class="content">
-            <div class="left-div">
+        <div className="content">
+            <div className="left-div">
                 <h3>EDUCATION</h3>
             </div>
-            <div class="right-div">
+            <div className="right-div">
                
               <p><strong>National University Bangladesh - BSc in Mathematics - (appeared)</strong></p>                      
                 
@@ -162,8 +162,8 @@ const Resume = () => {
 
    
 
-    <div class="clear-div"></div>
-    <hr class="common-hr"/>
+    <div className="clear-div"></div>
+    <hr className="common-hr"/>
 
 
     
@@ -172,11 +172,11 @@ const Resume = () => {
 
    
     <section id="ielts-section">
-        <div class="content">
-            <div class="left-div">
+        <div className="content">
+            <div className="left-div">
                 <h3>DECLARATION</h3>
             </div>
-            <div class="right-div">
+            <div className="right-div">
                 <p>I hereby declare that the information above is true to the best of my knowledge.</p>                 
                 
             </div>
@@ -185,8 +185,8 @@ const Resume = () => {
 
    
 
-    <div class="clear-div"></div>
-    <hr class="common-hr"/>
+    <div className="clear-div"></div>
+    <hr className="common-hr"/>
 
 
 
@@ -194,11 +194,11 @@ const Resume = () => {
 
 
 
-<div class="clear-div"></div>
+<div className="clear-div"></div>
    
 
 
-<footer class="bottom-container">
+<footer className="bottom-container">
 
     <a href="#container">Home</a>
     <a href="https://www.facebook.com/zabedbinsiraz" target="blank">Facebook</a>
