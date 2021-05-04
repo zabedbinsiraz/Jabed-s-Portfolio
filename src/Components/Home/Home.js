@@ -29,7 +29,7 @@ const Home = () => {
         <footer className="bottom-container row d-flex">
 
 <div className="col-md-3 pt-2 ms-0">
-<a href="">LinkedIn</a>
+<a href="https://www.linkedin.com/in/mohammad-jabed-hossain-913b14198/">LinkedIn</a>
 <a href="https://www.facebook.com/zabedbinsiraz" target="blank">Facebook</a>
 
 <a href=" https://github.com/zabedbinsiraz" target="blank">GitHub</a>  
