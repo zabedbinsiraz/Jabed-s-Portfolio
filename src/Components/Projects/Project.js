@@ -28,8 +28,8 @@ const Project = (props) => {
  </div>
  <p>{project.tech}</p>
  <div className="card-body">
-   <a href="#" className="card-link">{project.liveLink}</a>
-   <a href="#" className="card-link">{project.codeLink}</a>
+   <a href={project.liveLink} className="card-link">Live</a>
+   <a href={project.codeLink} className="card-link">Code</a>
  </div>
 </div>
 

@@ -1,11 +1,12 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-      <nav  style={{backgroundColor:'darkolivegreen'}} className="navbar navbar-expand-lg navbar-light ">
+      <nav style={{backgroundColor:'darkolivegreen'}}  className="navbar navbar-expand-lg navbar-light ">
       <div className="container-fluid">
-        <a className="navbar-brand text-white" href="#">MJH</a>
+      <Link className="navbar-brand text-white" to="/">MJH</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
