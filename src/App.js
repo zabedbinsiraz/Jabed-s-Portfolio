@@ -13,7 +13,7 @@ import Resume from "./Components/Resume/Resume";
 
 function App() {
   return (
-    <div  style={{backgroundColor:'darkolivegreen'}}>
+    <div  style={{backgroundColor:'darkolivegreen',height:'100%'}}>
       
      <Router>
      <Navbar></Navbar>
@@ -39,6 +39,7 @@ function App() {
           </Route>
         </Switch>
       </div>
+     
     </Router>
     </div>
   );

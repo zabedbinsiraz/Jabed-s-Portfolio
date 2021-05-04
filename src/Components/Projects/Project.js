@@ -4,7 +4,7 @@ import React from 'react';
 const Project = (props) => {
     const project = props.project;
     return (
-        <div className='col-md-3 p-2 m-2'>
+        <div className='col-md-3 ms-5 p-5 col-sm-6'>
 
         <div className="card p-2 m-1" style={{width:'20rem',height:'550px'}}>
         <div id="#c" className="carousel slide" data-bs-ride="carousel">
@@ -24,7 +24,7 @@ const Project = (props) => {
 </div>
  <div className="card-body">
    <h5 className="card-title">{project.title}</h5>
-   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   <p className="card-text ">{project.desc}</p>
  </div>
  <p>{project.tech}</p>
  <div className="card-body">
